@@ -1,0 +1,18 @@
+- ITICS40 tool:
+	- your tool will have the following features:
+		1- Parse access.log files and extract all information [task from lab]
+		2- Directory monitoring [task from lab]
+		3- It will scan a range of IPs [TCP & UDP]. after gaining the open ports, pass them to Nmap with -sC -sV options and parse the output to the user.
+		4- Attack detection [listen to unknown ports and check if there is someone try to connect], send a mail and block the IP [Block using iptc module to add in iptables]
+		5- Parse any link and extract all tags, comments, domains, subdomains and full URLs from it.
+		6- Users will have the choice to write any output to a file.
+
+Notes: 
+- I will receive a GitHub link from each one to view his/her project on Github.
+- I will not receive any project that was written without exception handling or functions.
+- feel free to test your program against static inputs but the last version will be able to take an input from the user to proceed in any feature.
+
+The deadline will be 25/1/2020
+
+Bonus: thread any function
+
